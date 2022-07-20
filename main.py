@@ -14,4 +14,5 @@ while True:
      connection.sendmail(from_addr=my_email, to_addrs=recipient_email, msg="get_spammed!")
      connection.close()
      
-    except ValueError 
+    except:
+        ValueError 
